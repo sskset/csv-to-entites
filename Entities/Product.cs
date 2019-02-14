@@ -1,9 +1,11 @@
 ﻿using Core;
+using System.ComponentModel.DataAnnotations;
 
 namespace Entities
 {
     public class Product
     {
+        [Key]
         [CsvColumn(0)]
         public string Id { get; set; }
         [CsvColumn(1)]

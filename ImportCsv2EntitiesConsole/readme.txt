@@ -1,0 +1,1 @@
+﻿This is a console app that illustrates how to import csv file into entities.
